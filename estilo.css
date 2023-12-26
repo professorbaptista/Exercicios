@@ -1,5 +1,10 @@
 
 
+*{
+    margin: 0;
+    padding: 6px;
+}
+
 body{
     background-image: linear-gradient(to left, rgb(12,12, 57), rgb(28, 231, 60));
     color: white;
@@ -13,10 +18,12 @@ section{
     position: absolute;
     top: 50%;
     left: 50%;
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 450px;
     background-color: #cd2a23;
     transform: translate(-50%, -50%);
+    margin-top: 8%;
+    border-radius: 12px;
 
 
 }
@@ -34,4 +41,35 @@ img{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+input{
+    background-color: rgba(22, 22, 96, 0.537);
+    padding: 8px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 12px;
+    font-size: .7em;
+    margin-top: 10px;
+   
+}
+
+button{
+    background-color: rgba(22, 22, 96, 0.537);
+    padding: 8px;
+    color: white;
+    border-radius: 12px;
+    font-size: .7em;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 50%;
+    border: none;
+    outline: none;
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+    font-size: .5em;
 }
